@@ -9,7 +9,7 @@ const createDB = require('../config/db');
 //add baseUrl as url of website where you host the website + /urlapi
 //baseUrl is http://localhost:PORT/urlapi/ when running locally
 
-const baseUrl = 'http://localhost:3000/urlapi/'
+const baseUrl = 'https://url-shortner-e8mr.onrender.com/urlapi/'
 
 //connecting databse
 createDB.sync().then(() => console.log('now you can store the data'));
